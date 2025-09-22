@@ -1,5 +1,7 @@
 ﻿# DeDottifyHeader
 
+[![Build and Test](https://github.com/cosh/DeDottifyHeader/actions/workflows/build.yml/badge.svg)](https://github.com/cosh/DeDottifyHeader/actions/workflows/build.yml)
+
 A .NET 9 console application that cleans and standardizes CSV file headers by removing or replacing unwanted characters like dots, spaces, and hyphens.
 
 ## Overview
