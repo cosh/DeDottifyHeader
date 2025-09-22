@@ -1,4 +1,4 @@
-# DeDottifyHeader
+﻿# DeDottifyHeader
 
 A .NET 9 console application that cleans and standardizes CSV file headers by removing or replacing unwanted characters like dots, spaces, and hyphens.
 
@@ -140,18 +140,18 @@ FirstName,Last_Name,Email_Address,PhoneNumber
 
 ```
 DeDottifyHeader/
-??? DeDottifyHeader/              # Main console application
-?   ??? Program.cs                # Entry point and main logic
-?   ??? CsvHeaderProcessor.cs     # Core processing logic
-?   ??? ProcessingSettings.cs     # Configuration model
-?   ??? AppSettings.cs           # Application settings model
-?   ??? StringReplacement.cs     # Replacement rule model
-?   ??? appsettings.json         # Configuration file
-?   ??? DeDottifyHeader.csproj   # Project file
-??? Test/                        # Unit tests
-?   ??? Test1.cs                 # Comprehensive test suite
-?   ??? Test.csproj              # Test project file
-??? README.md                    # This file
+├── DeDottifyHeader/              # Main console application
+│   ├── Program.cs                # Entry point and main logic
+│   ├── CsvHeaderProcessor.cs     # Core processing logic
+│   ├── ProcessingSettings.cs     # Configuration model
+│   ├── AppSettings.cs           # Application settings model
+│   ├── StringReplacement.cs     # Replacement rule model
+│   ├── appsettings.json         # Configuration file
+│   └── DeDottifyHeader.csproj   # Project file
+├── Test/                        # Unit tests
+│   ├── Test1.cs                 # Comprehensive test suite
+│   └── Test.csproj              # Test project file
+└── README.md                    # This file
 ```
 
 ## API Usage
